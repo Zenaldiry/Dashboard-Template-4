@@ -322,6 +322,14 @@
     .m-auto-mobile {
         margin: auto;
     }
+
+    .m-0-mobile {
+        margin: 0;
+    }
+
+    .p-0-mobile {
+        padding: 0;
+    }
 }
 
 
