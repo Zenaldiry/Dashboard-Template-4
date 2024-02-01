@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- css files  -->
+    <link rel="stylesheet" href="css\framework.css">
+    <link rel="stylesheet" href="css\main.css">
+    <!-- css files  -->
+    <!-- fontawesome file  -->
+    <link rel="stylesheet" href="css\all.min.css">
+    <!-- fontawesome file  -->
+    <!-- font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <!-- font link  -->
+
+</head>
+
+<body>
+    <div class="page d-flex">
+        <div class="side-bar bg-white p-20 p-relative">
+            <h3 class="p-relative txt-c mt-0 pb-10 mb-50">ZEn</h3>
+            <ul>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black p-10 p-relative" href="index.html" aria-label="link">
+                        <i class="fab fa-buromobelexperte fa-fw mr-10"></i>
+                        <span class="hide-mobile">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black p-10 p-relative" href="settings.html"
+                        aria-label="link">
+                        <i class="fas fa-cog fa-fw  mr-10"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black p-10 p-relative" href="profile.html" aria-label="link">
+                        <i class="fas fa-user fa-fw  mr-10"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black p-10 p-relative" href="projects.html"
+                        aria-label="link">
+                        <i class="fas fa-network-wired fa-fw  mr-10"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black p-10 p-relative" href="courses.html" aria-label="link">
+                        <i class="fas fa-graduation-cap fa-fw  mr-10"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black p-10 p-relative" href="friends.html" aria-label="link">
+                        <i class="far fa-user-circle fa-fw  mr-10"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-flex align-center fs-14 c-black p-10 p-relative" href="file.html"
+                        aria-label="link">
+                        <i class="far fa-file fa-fw  mr-10"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black p-10 p-relative" href="plans.html" aria-label="link">
+                        <i class="far fa-credit-card fa-fw  mr-10"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content-area w-full mb-20">
+            <!-- start head  -->
+            <div class="head between-flex p-15 bg-white">
+                <div class="search-side">
+                    <i class="fas fa-search fa-fw"></i>
+                    <input type="search" class="search-bar" placeholder="Type your Keyword">
+                </div>
+                <div class="icons-bar">
+                    <i class="far fa-bell fa-fw"></i>
+                    <img src="/imgs/avatar.jpg" alt="img">
+                </div>
+            </div>
+            <!-- start body  -->
+            <div class="section-title">
+                <h3 class="p-relative">Files</h3>
+            </div>
+            <div class="files d-flex flex-colm-mobile ">
+                <div class=" files-wrapper d-grid gap-20 grow-1 ">
+                    <div class="files-box bg-white mr-10 ml-10 rad-10 d-block-mobile rad-10 p-10"
+                        style="overflow: hidden;">
+                        <div class="border-b-ddd">
+                            <div>
+                                <i class="fas fa-download c-grey"></i>
+                            </div>
+                            <div class="center-flex flex-colm">
+                                <img src="imgs/pdf.svg" alt="img" class="w-70 ">
+                                <p class="fs-14 fw-600">my-file.pdf</p>
+                            </div>
+                            <p class="c-grey fs-14 fw-600">Elzero</p>
+                        </div>
+                        <div class="between-flex pt-10 ">
+                            <span class="c-grey fs-13 fw-600">20/06/2020</span>
+                            <span class="c-grey fs-13 fw-600">5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="files-box bg-white mr-10 ml-10 rad-10 d-block-mobile rad-10 p-10"
+                        style="overflow: hidden;">
+                        <div class="border-b-ddd">
+                            <div>
+                                <i class="fas fa-download c-grey"></i>
+                            </div>
+                            <div class="center-flex flex-colm">
+                                <img src="imgs/avi.svg" alt="img" class="w-70 ">
+                                <p class="fs-14 fw-600">my-file.avi</p>
+                            </div>
+                            <p class="c-grey fs-14 fw-600">ElZEn</p>
+                        </div>
+                        <div class="between-flex pt-10 ">
+                            <span class="c-grey fs-13 fw-600">16/5/2021</span>
+                            <span class="c-grey fs-13 fw-600">12.5MB</span>
+                        </div>
+                    </div>
+                    <div class="files-box bg-white mr-10 ml-10 rad-10  d-block-mobile rad-10 p-10"
+                        style="overflow: hidden;">
+                        <div class="border-b-ddd">
+                            <div>
+                                <i class="fas fa-download c-grey"></i>
+                            </div>
+                            <div class="center-flex flex-colm">
+                                <img src="imgs/eps.svg" alt="img" class="w-70 ">
+                                <p class="fs-14 fw-600">my-file.eps</p>
+                            </div>
+                            <p class="c-grey fs-14 fw-600">Uploader</p>
+                        </div>
+                        <div class="between-flex pt-10 ">
+                            <span class="c-grey fs-13 fw-600">16/5/2021</span>
+                            <span class="c-grey fs-13 fw-600">2.7MB</span>
+                        </div>
+                    </div>
+                    <div class="files-box bg-white mr-10 ml-10 rad-10  d-block-mobile rad-10 p-10"
+                        style="overflow: hidden;">
+                        <div class="border-b-ddd">
+                            <div>
+                                <i class="fas fa-download c-grey"></i>
+                            </div>
+                            <div class="center-flex flex-colm">
+                                <img src="imgs/psd.svg" alt="img" class="w-70 ">
+                                <p class="fs-14 fw-600">my-file.psd</p>
+                            </div>
+                            <p class="c-grey fs-14 fw-600">Osama</p>
+                        </div>
+                        <div class="between-flex pt-10 ">
+                            <span class="c-grey fs-13 fw-600">16/5/2021</span>
+                            <span class="c-grey fs-13 fw-600">15.1MB</span>
+                        </div>
+                    </div>
+                    <div class="files-box bg-white mr-10 ml-10 rad-10  d-block-mobile rad-10 p-10"
+                        style="overflow: hidden;">
+                        <div class="border-b-ddd">
+                            <div>
+                                <i class="fas fa-download c-grey"></i>
+                            </div>
+                            <div class="center-flex flex-colm">
+                                <img src="imgs/dll.svg" alt="img" class="w-70 ">
+                                <p class="fs-14 fw-600">my-file.dll</p>
+                            </div>
+                            <p class="c-grey fs-14 fw-600">Coder</p>
+                        </div>
+                        <div class="between-flex pt-10 ">
+                            <span class="c-grey fs-13 fw-600">16/5/2021</span>
+                            <span class="c-grey fs-13 fw-600">2.2MB</span>
+                        </div>
+                    </div>
+                    <div class="files-box bg-white mr-10 ml-10 rad-10  d-block-mobile rad-10 p-10"
+                        style="overflow: hidden;">
+                        <div class="border-b-ddd">
+                            <div>
+                                <i class="fas fa-download c-grey"></i>
+                            </div>
+                            <div class="center-flex flex-colm">
+                                <img src="imgs/png.svg" alt="img" class="w-70 ">
+                                <p class="fs-14 fw-600">my-file.png</p>
+                            </div>
+                            <p class="c-grey fs-14 fw-600">Designer</p>
+                        </div>
+                        <div class="between-flex pt-10 ">
+                            <span class="c-grey fs-13 fw-600">16/5/2021</span>
+                            <span class="c-grey fs-13 fw-600">1.1MB</span>
+                        </div>
+                    </div>
+                    <div class="files-box bg-white mr-10 ml-10 rad-10  d-block-mobile rad-10 p-10"
+                        style="overflow: hidden;">
+                        <div class="border-b-ddd">
+                            <div>
+                                <i class="fas fa-download c-grey"></i>
+                            </div>
+                            <div class="center-flex flex-colm">
+                                <img src="imgs/pdf.svg" alt="img" class="w-70 ">
+                                <p class="fs-14 fw-600">my-file.pdf</p>
+                            </div>
+                            <p class="c-grey fs-14 fw-600">Elzero</p>
+                        </div>
+                        <div class="between-flex pt-10 ">
+                            <span class="c-grey fs-13 fw-600">20/06/2020</span>
+                            <span class="c-grey fs-13 fw-600">5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="files-box bg-white mr-10 ml-10 rad-10  d-block-mobile rad-10 p-10"
+                        style="overflow: hidden;">
+                        <div class="border-b-ddd">
+                            <div>
+                                <i class="fas fa-download c-grey"></i>
+                            </div>
+                            <div class="center-flex flex-colm">
+                                <img src="imgs/avi.svg" alt="img" class="w-70 ">
+                                <p class="fs-14 fw-600">my-file.avi</p>
+                            </div>
+                            <p class="c-grey fs-14 fw-600">ElZEn</p>
+                        </div>
+                        <div class="between-flex pt-10 ">
+                            <span class="c-grey fs-13 fw-600">16/5/2021</span>
+                            <span class="c-grey fs-13 fw-600">12.5MB</span>
+                        </div>
+                    </div>
+                    <div class="files-box bg-white mr-10 ml-10 rad-10  d-block-mobile rad-10 p-10"
+                        style="overflow: hidden;">
+                        <div class="border-b-ddd">
+                            <div>
+                                <i class="fas fa-download c-grey"></i>
+                            </div>
+                            <div class="center-flex flex-colm">
+                                <img src="imgs/eps.svg" alt="img" class="w-70 ">
+                                <p class="fs-14 fw-600">my-file.eps</p>
+                            </div>
+                            <p class="c-grey fs-14 fw-600">Uploader</p>
+                        </div>
+                        <div class="between-flex pt-10 ">
+                            <span class="c-grey fs-13 fw-600">16/5/2021</span>
+                            <span class="c-grey fs-13 fw-600">2.7MB</span>
+                        </div>
+                    </div>
+                    <div class="files-box bg-white mr-10 ml-10 rad-10  d-block-mobile rad-10 p-10"
+                        style="overflow: hidden;">
+                        <div class="border-b-ddd">
+                            <div>
+                                <i class="fas fa-download c-grey"></i>
+                            </div>
+                            <div class="center-flex flex-colm">
+                                <img src="imgs/psd.svg" alt="img" class="w-70 ">
+                                <p class="fs-14 fw-600">my-file.psd</p>
+                            </div>
+                            <p class="c-grey fs-14 fw-600">Osama</p>
+                        </div>
+                        <div class="between-flex pt-10 ">
+                            <span class="c-grey fs-13 fw-600">16/5/2021</span>
+                            <span class="c-grey fs-13 fw-600">15.1MB</span>
+                        </div>
+                    </div>
+                    <div class="files-box bg-white mr-10 ml-10 rad-10  d-block-mobile rad-10 p-10"
+                        style="overflow: hidden;">
+                        <div class="border-b-ddd">
+                            <div>
+                                <i class="fas fa-download c-grey"></i>
+                            </div>
+                            <div class="center-flex flex-colm">
+                                <img src="imgs/dll.svg" alt="img" class="w-70 ">
+                                <p class="fs-14 fw-600">my-file.dll</p>
+                            </div>
+                            <p class="c-grey fs-14 fw-600">Coder</p>
+                        </div>
+                        <div class="between-flex pt-10 ">
+                            <span class="c-grey fs-13 fw-600">16/5/2021</span>
+                            <span class="c-grey fs-13 fw-600">2.2MB</span>
+                        </div>
+                    </div>
+                    <div class="files-box bg-white mr-10 ml-10 rad-10  d-block-mobile rad-10 p-10"
+                        style="overflow: hidden;">
+                        <div class="border-b-ddd">
+                            <div>
+                                <i class="fas fa-download c-grey"></i>
+                            </div>
+                            <div class="center-flex flex-colm">
+                                <img src="imgs/png.svg" alt="img" class="w-70 ">
+                                <p class="fs-14 fw-600">my-file.png</p>
+                            </div>
+                            <p class="c-grey fs-14 fw-600">Designer</p>
+                        </div>
+                        <div class="between-flex pt-10 ">
+                            <span class="c-grey fs-13 fw-600">16/5/2021</span>
+                            <span class="c-grey fs-13 fw-600">1.1MB</span>
+                        </div>
+                    </div>
+                    <div class="files-box bg-white mr-10 ml-10 rad-10  d-block-mobile rad-10 p-10"
+                        style="overflow: hidden;">
+                        <div class="border-b-ddd">
+                            <div>
+                                <i class="fas fa-download c-grey"></i>
+                            </div>
+                            <div class="center-flex flex-colm">
+                                <img src="imgs/pdf.svg" alt="img" class="w-70 ">
+                                <p class="fs-14 fw-600">my-file.pdf</p>
+                            </div>
+                            <p class="c-grey fs-14 fw-600">Elzero</p>
+                        </div>
+                        <div class="between-flex pt-10 ">
+                            <span class="c-grey fs-13 fw-600">20/06/2020</span>
+                            <span class="c-grey fs-13 fw-600">5.5MB</span>
+                        </div>
+                    </div>
+                    <div class="files-box bg-white mr-10 ml-10 rad-10  d-block-mobile rad-10 p-10"
+                        style="overflow: hidden;">
+                        <div class="border-b-ddd">
+                            <div>
+                                <i class="fas fa-download c-grey"></i>
+                            </div>
+                            <div class="center-flex flex-colm">
+                                <img src="imgs/avi.svg" alt="img" class="w-70 ">
+                                <p class="fs-14 fw-600">my-file.avi</p>
+                            </div>
+                            <p class="c-grey fs-14 fw-600">ElZEn</p>
+                        </div>
+                        <div class="between-flex pt-10 ">
+                            <span class="c-grey fs-13 fw-600">16/5/2021</span>
+                            <span class="c-grey fs-13 fw-600">12.5MB</span>
+                        </div>
+                    </div>
+                    <div class="files-box bg-white mr-10 ml-10 rad-10  d-block-mobile rad-10 p-10"
+                        style="overflow: hidden;">
+                        <div class="border-b-ddd">
+                            <div>
+                                <i class="fas fa-download c-grey"></i>
+                            </div>
+                            <div class="center-flex flex-colm">
+                                <img src="imgs/eps.svg" alt="img" class="w-70 ">
+                                <p class="fs-14 fw-600">my-file.eps</p>
+                            </div>
+                            <p class="c-grey fs-14 fw-600">Uploader</p>
+                        </div>
+                        <div class="between-flex pt-10 ">
+                            <span class="c-grey fs-13 fw-600">16/5/2021</span>
+                            <span class="c-grey fs-13 fw-600">2.7MB</span>
+                        </div>
+                    </div>
+                    <div class="files-box bg-white mr-10 ml-10 rad-10  d-block-mobile rad-10 p-10"
+                        style="overflow: hidden;">
+                        <div class="border-b-ddd">
+                            <div>
+                                <i class="fas fa-download c-grey"></i>
+                            </div>
+                            <div class="center-flex flex-colm">
+                                <img src="imgs/psd.svg" alt="img" class="w-70 ">
+                                <p class="fs-14 fw-600">my-file.psd</p>
+                            </div>
+                            <p class="c-grey fs-14 fw-600">Osama</p>
+                        </div>
+                        <div class="between-flex pt-10 ">
+                            <span class="c-grey fs-13 fw-600">16/5/2021</span>
+                            <span class="c-grey fs-13 fw-600">15.1MB</span>
+                        </div>
+                    </div>
+                    <div class="files-box bg-white mr-10 ml-10 rad-10  d-block-mobile rad-10 p-10"
+                        style="overflow: hidden;">
+                        <div class="border-b-ddd">
+                            <div>
+                                <i class="fas fa-download c-grey"></i>
+                            </div>
+                            <div class="center-flex flex-colm">
+                                <img src="imgs/dll.svg" alt="img" class="w-70 ">
+                                <p class="fs-14 fw-600">my-file.dll</p>
+                            </div>
+                            <p class="c-grey fs-14 fw-600">Coder</p>
+                        </div>
+                        <div class="between-flex pt-10 ">
+                            <span class="c-grey fs-13 fw-600">16/5/2021</span>
+                            <span class="c-grey fs-13 fw-600">2.2MB</span>
+                        </div>
+                    </div>
+                    <div class="files-box bg-white mr-10 ml-10 rad-10  d-block-mobile rad-10 p-10"
+                        style="overflow: hidden;">
+                        <div class="border-b-ddd">
+                            <div>
+                                <i class="fas fa-download c-grey"></i>
+                            </div>
+                            <div class="center-flex flex-colm">
+                                <img src="imgs/png.svg" alt="img" class="w-70 ">
+                                <p class="fs-14 fw-600">my-file.png</p>
+                            </div>
+                            <p class="c-grey fs-14 fw-600">Designer</p>
+                        </div>
+                        <div class="between-flex pt-10 ">
+                            <span class="c-grey fs-13 fw-600">16/5/2021</span>
+                            <span class="c-grey fs-13 fw-600">1.1MB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="file-stats bg-white p-20 rad-10 mr-20 ml-20 " style="min-width: 250px;">
+                    <h3 class="mt-0 mb-20 bg-white fs-20 ">Files Statistics</h3>
+                    <div class="between-flex bg-white p-10 border-ddd">
+                        <i class="far fa-file-pdf p-10 bg-tw-opacity mr-10"></i>
+                        <div class="between-flex grow-1">
+                            <div class="">
+                                <p class="m-0 fs-13 fw-700">PDF Files</p>
+                                <p class="m-0 fs-13">130</p>
+                            </div>
+                            <p class="fs-13">6.5GB</p>
+                        </div>
+                    </div>
+                    <div class="between-flex bg-white p-10 border-ddd mt-10">
+                        <i class="far fa-file-image p-10 bg-green-opacity mr-10"></i>
+                        <div class="between-flex grow-1">
+                            <div class="">
+                                <p class="m-0 fs-13 fw-700">Images</p>
+                                <p class="m-0 fs-13">115 Files</p>
+                            </div>
+                            <p class="fs-13">3.5GB</p>
+                        </div>
+                    </div>
+                    <div class="between-flex bg-white p-10 border-ddd mt-10">
+                        <i class="far far fa-file-word p-10 bg-yt-opacity mr-10"></i>
+                        <div class="between-flex grow-1">
+                            <div class="">
+                                <p class="m-0 fs-13 fw-700">Word Files</p>
+                                <p class="m-0 fs-13">110 Files</p>
+                            </div>
+                            <p class="fs-13">3.2GB</p>
+                        </div>
+                    </div>
+                    <div class="between-flex bg-white p-10 border-ddd mt-10 mb-10">
+                        <i class="fas fa-file-csv p-10 bg-orange-opacity mr-10"></i>
+                        <div class="between-flex grow-1">
+                            <div class="">
+                                <p class="m-0 fs-13 fw-700">CSV Files</p>
+                                <p class="m-0 fs-13">99 Files</p>
+                            </div>
+                            <p class="fs-13">2.96B</p>
+                        </div>
+                    </div>
+                    <div class="fls-btn w-100 m-auto p-10 bg-blue rad-10 c-white fs-15 fw-600 center-flex">
+                        <i class="fas fa-angle-double-up fs-15 mr-10"></i>
+                        <span>UPload</span>
+                    </div>
+                </div>
+            </div>
+            <!-- end head  -->
+        </div>
+</body>
+
+</html>
